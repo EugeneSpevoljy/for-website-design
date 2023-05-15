@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--------------------Icon made by Freepik from www.flaticon.com----------->
+    <link rel="icon" type="image/x-icon" href="./images/waffle.png">
+    
+    <script src="https://kit.fontawesome.com/e6706c0d6a.js" crossorigin="anonymous"></script>
+
+  <!-------------------------------Own CSS style------------------------------->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <!------------------------------Bootstrap CDN-------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!------------------------------Own JavaScript------------------------------>
+    <script type="text/javascript" src="./js/menuJS.js"></script>
+    <script type="text/javascript" src="./js/header.js"></script>
+
+    <title>MyWaffle Menu</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+<header class="headerImg">
+    <h1>🧇My Waffle.Com</h1>
+</header>
+
+
+
+<nav class="navigationBar">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="location.html">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">contactUs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">AboutUs</a>
+          </li>
+      </ul>
+      <div class="topnav" id="myTopnav">
+        <a href="menu.html" class="active resTop">Menu</a>
+        <a href="index.html">Home</a>
+        <a href="location.html">Location</a>
+        <a href="contactUs.html">contactUs</a>
+        <a href="aboutUs.html">AboutUs</a>
+        <a href="javascript:void(0);" class="icon resTop" onclick="myHeader()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+</nav>
+
+
+<div class="navigationMenu">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">  
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1"><i class="fas fa-stroopwafel bg-warning"></i> Waffle</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2"><i class="fa-solid fa-glass-water bg-info"></i> Beverage</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3"><i class="fa-solid fa-cookie-bite bg-danger"></i> Snack</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+  <div id="section1" class="container-fluid Waffle" style="padding-top:70px;padding-bottom:70px">
+    <h1 class="sectionH1">Waffle</h1>
+
+    <div class="menuPage" id="menuWaffle"></div>  
+
+    </div>
+
+  </div>
+  <div id="section2" class="container-fluid Beverage" style="padding-top:70px;padding-bottom:70px">
+    <h1 class="sectionH1">Beverage</h1>
+
+    <div class="menuPage" id="menuBeverage"></div> 
+
+  </div>
+  <div id="section3" class="container-fluid Snack" style="padding-top:70px;padding-bottom:70px">
+    <h1 class="sectionH1">Snack</h1>
+
+    <div class="menuPage" id="menuSnack"></div> 
+
+  </div> 
+
+
+
+
+
+<footer>
+  <p><i class="fa-solid fa-envelope"></i> - Emaill: MyWaffle@gmail.com</p>
+  <p><i class="fa-solid fa-phone"></i> - Phone-No: 016-1234567</p>
+  <p><i class="fa-brands fa-facebook"></i> - Facebook: MyWaffle.com</p>
+</footer>
+
+</body>
+</html>

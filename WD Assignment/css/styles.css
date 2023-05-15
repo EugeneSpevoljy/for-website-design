@@ -1,0 +1,513 @@
+*{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+a{
+    font-size: 1.25em;
+}
+
+body{
+    margin: 0;
+    position: relative;
+}
+
+.navigationBar{
+    background-color: #dda430;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navigationBar :hover{
+    color: black;
+}
+
+nav a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+.navigationBar .nav-pills .nav-link.active{
+    color: white;
+    background-color: #694c11;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #694c11;
+    color: white;
+}
+
+.headerImg{
+    background-color: #dda430;
+    text-align: center;
+    height: 6vh;
+
+}
+
+.headerImg h1{
+    font-size: 2.8em;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #dda430;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #694c11;
+  color: white;
+}
+
+.topnav{
+    display: none;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 510px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .navigationBar ul{
+    display: none;
+  }
+  .topnav{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*----------------above is for global(whole)-----------*/
+
+/*---------------Eugene Yip---------------------------*/
+.menuPage{
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.menu{
+    margin: 1em;
+    
+}
+
+.navigationMenu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2.5em;
+    z-index:1;
+
+}
+
+.menu img{
+    width:  100%;
+    height: 18.75em;
+    object-fit: cover;
+}
+
+.menu p{
+    height: 5em;
+}
+
+.Beverage{
+    background-image: url("../images/bgBeverage2.jpg");
+}
+
+.Waffle{
+    background-image: url("../images/bgWaffle3.jpg");
+}
+
+.Snack{
+    background-image: url("../images/bgSnack.jpg");
+}
+
+.sectionH1{
+    font-size: 4.5em;
+    font-weight: bold;
+    color: red;
+}
+
+.menuCard-waffle{
+  background-image: linear-gradient(to right,hsl(210,80%,60%,20%), #ffffff, hsl(210,80%,60%,20%));
+}
+
+.menuCard-beverage{
+  background-image: linear-gradient(to right,hsl(180,60%,75%,20%), #ffffff, hsl(180,60%,75%,20%));
+}
+
+.menuCard-snack{
+  background-image: linear-gradient(to right,hsl(30,80%,75%,30%), #ffffff, hsl(30,80%,75%,30%));
+}
+
+.card{
+  box-shadow: 2px 2px 4px hsl(0, 0%, 0%, 60%);
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.shadow{
+  text-shadow: 2px 2px 4px hsl(0, 0%, 0%, 60%);
+}
+.boxShadow{
+  box-shadow: 2px 2px 4px hsl(0, 0%, 0%, 60%);
+}
+/*---------------End Line---------------------------*/
+
+/*---------------gam bing  ---------------------------*/
+.iframeStyle{
+  width: 100%;
+  height: 20rem;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 50vh;
+}
+
+.carousel-inner .carousel-caption h3{
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.carousel-inner .carousel-caption p{
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.locationImg{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.locationCol{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.jumbotronLocation{
+  height: 20vh;
+  background-image: linear-gradient(to bottom right,#e6ccff, #e6f5d6, #d1e6fa)
+}
+
+.locationBg{
+  background-image: url("../images/locationBg.jpg");
+  background-repeat: repeat;
+}
+
+.locationCardHeader{
+  background-color: #e6ccff; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#e6ccff, #fff)
+}
+
+.locationCardFooter{
+  background-color: #e6ccff; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top,#e6ccff, #fff)
+}
+
+
+
+/*---------------write your style inside this line---------------------------*/
+
+/*---------------Shun Shen---------------------------*/
+
+.details{
+  margin: 0 5%;
+  }
+  
+   
+   .details h2{
+      font-family: 'Lucida Sans';
+      margin-bottom :auto;
+      color:black;
+      background-color:         #99aab5;
+      text-align: center;
+  
+   }
+  
+   .details p{
+      color: black;
+      font-size: 1em;
+    padding-left: 10px;
+  
+  
+      padding-top: 10px;
+      font-family: 'Georgia';
+   }
+  
+   .aboutUsBtn{
+      background-color: transparent;
+      border: 1px solid grey;
+      border-radius: 100x;
+      letter-spacing: 0.2rem;
+      color :#373737;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+  
+   }
+   .aboutUsBtn:hover{
+      background-color: #c0c5ce;
+   }
+  
+   .aboutUsBtn a{
+      text-decoration: none;
+      color: black;
+   }
+  
+   .aboutUsBtn a:hover{
+      text-decoration: none;
+      color: black;
+   }
+  
+  
+  .media-body{
+     margin :25px 25px;
+  }
+  
+  .row .contactUsFirst h2{
+      text-align: center;
+  }
+  
+  .row .contactUsFirst i{
+      margin: auto;
+      font-size: 2rem;
+  }
+  
+  .row .contactUsFirst .card{
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem;
+  }
+  
+  .row .contactUsFirst .card-body{
+      font-size: 1rem;
+      text-align: center;
+      font-weight: bold;
+      background-color: #dda430;
+  }
+  
+  .row .contactUsSecond .card{
+      padding: 1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+  }
+   
+  .contactUsBg{
+      background-image: url("../images/NewsPaperBG.jpg");
+      background-repeat: repeat;
+  }
+  
+  .aboutUsBg{
+   background-image: linear-gradient(to bottom right , #ffffff,#b9e2f5);
+  }
+  
+  .aboutUsImg{
+      background-color: #fff;
+      background-image: linear-gradient(to right, white , #f7e7bc);
+      width: 80%;
+      margin: auto;
+  }
+  
+  .container .media img{
+      width: 10%;
+      height: 1%;
+  }
+
+ .contactUsFirst{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+ }
+ .contactUsSecond{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+ }
+
+ .aboutUsLogo{
+  text-align: center;
+  background-image: linear-gradient(to right,hsl(30,80%,75%,90%), #ffffff, hsl(30,80%,75%,90%));
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ }
+
+ .aboutUsCol-1{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ }
+
+ .aboutUsCol-2{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ }
+
+ .img-center{
+  width: 100%;
+  max-height: 75vh;
+ }
+
+/*---------------zi yan---------------------------*/
+
+.slideImg{
+  width: 75%;
+  max-height: 75vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.thumb img{
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 2px 2px 4px hsl(0, 0%, 0%, 60%);
+  border-radius: 50%;
+   background-color: hsl(250,100%,100%,65%);
+}
+
+.thumb{
+  margin-top: 1rem;
+  margin-left: 0%;
+  display: flex;
+  padding-left: 0;
+}
+
+.thumb li{
+  list-style: none;
+  display: inline-block;
+  cursor:pointer;
+  margin: 0 1.25rem;
+}
+
+.thumb li:hover{
+  transform:translateY(-1rem);
+}
+
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color: #dda430;
+  clip-path: circle(60% at right 80%);
+  z-index: -1;
+}
+
+.circle2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color: #EB7828;
+  clip-path: circle(60% at left 20%);
+  z-index: -2;
+}
+
+.hompageBody{
+  background-color: hsl(60, 80%, 75%,30%);
+}
+
+.content{
+  position:relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.content .textbox{
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textbox h2{
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.content .textbox h2 span{
+  color:#dda430;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.content .textbox p{
+  color:#333;
+}
+
+.content .textbox a{
+  display:inline-block;
+  margin-top: 20px;
+  padding:8px 20px;
+  background:#dda430;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.paragraph{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.indexCol{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

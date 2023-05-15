@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--Icon made by Freepik from www.flaticon.com-->
+    <link rel="icon" type="image/x-icon" href="./images/waffle.png">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e6706c0d6a.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./js/header.js"></script>
+
+
+    <title>MyWaffle Location</title>
+</head>
+<body>
+    
+  <header class="headerImg">
+    <h1>🧇My Waffle.Com</h1>
+</header>
+
+
+
+<nav class="navigationBar">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="location.html">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">contactUs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">AboutUs</a>
+          </li>
+      </ul>
+      <div class="topnav" id="myTopnav">
+        <a href="location.html" class="active resTop">Location</a>
+        <a href="menu.html" >Menu</a>
+        <a href="index.html">Home</a>
+        <a href="contactUs.html">contactUs</a>
+        <a href="aboutUs.html">AboutUs</a>
+        <a href="javascript:void(0);" class="icon resTop" onclick="myHeader()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+</nav>
+
+
+
+
+
+
+
+
+
+<!--Write you code here / put you design here -->
+
+
+<div class="container-fluid locationBg">
+
+  <div class="row">
+
+    <div class="col-lg-4 ">
+
+      <div class="container-fluid locationCol">
+        <div class="card">
+          <div class="card-header locationCardHeader"><h1><b>Location</b></h1><h3>Welcome To My Waffle.Com</h3></div>
+
+
+          <div class="card-body"><iframe class="iframeStyle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.339902413949!2d103.77099967482974!3d1.5598149984256195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6f72eb1906e3%3A0x2e773d1c210ceb4b!2sInside%20Scoop%20JB%20(Mount%20Austin)!5e0!3m2!1sen!2smy!4v1683565885366!5m2!1sen!2smy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div> 
+
+
+          <div class="card-footer locationCardFooter"><h3>Address</h3><a href="https://www.google.com/maps/dir//41,+Jalan+Austin+Heights+8%2F1,+Taman+Mount+Austin,+81100+Johor+Bahru,+Johor/@1.5598138,103.703534,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31da6f72eb1906e3:0x2e773d1c210ceb4b!2m2!1d103.7735746!2d1.559815" target="_blank"><b>My Waffle Shop (Mount Austin)</b></a><p>41, Jalan Austin Heights 8/1, Taman Mount Austin, 81100 Johor Bahru, Johor</p></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-8 locationCol">
+
+      <div class="jumbotron jumbotron-fluid jumbotronLocation">
+
+          <h1><i class="fa-solid fa-location"></i> Nearby Attractions</h1>  
+          <p>These are the attractions near My Waffle.Com</p>    
+
+      </div>
+      <div class="card bg-light locationImg">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="./images/austinWaterPark.jpg" alt="Austin Heights Water & Adventure Park" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Austin Heights Water & Adventure Park</h3>
+              <p>Want some thrilling rides?</p>
+            </div>   
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/austinFitness.jpg" alt="Austin Fitness" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Austin Fitness</h3>
+              <p>NO PAIN NO GAIN</p>
+            </div>   
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/austinSunway.jpg" alt="Sunway College" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Sunway College</h3>
+              <p>Where Dreams Come True</p>
+            </div>   
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+    </div>
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>✉️Emaill: MyWaffle@gmail.com</p>
+        <p>☎️Phone-No: 016-1234567</p>
+        <p>📘Facebook: MyWaffle.com</p>
+      </footer>
+      
+</body>
+</html>

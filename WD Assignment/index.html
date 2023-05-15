@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!--Icon made by Freepik from www.flaticon.com-->
+    <link rel="icon" type="image/x-icon" href="./images/waffle.png">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e6706c0d6a.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./js/header.js"></script>
+
+
+    <title>MyWaffle Home</title>
+</head>
+<body>
+  <header class="headerImg">
+    <h1>🧇My Waffle.Com</h1>
+</header>
+
+
+
+<nav class="navigationBar">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="location.html">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactUs.html">contactUs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">AboutUs</a>
+          </li>
+      </ul>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active resTop">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="location.html">Location</a>
+        <a href="contactUs.html">contactUs</a>
+        <a href="aboutUs.html">AboutUs</a>
+        <a href="javascript:void(0);" class="icon resTop" onclick="myHeader()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+</nav>
+
+
+
+<!--Write you code here / put you design here -->
+
+<div class="container-fluid">
+
+  <div class="row">
+
+    <div class="col-xl-8 hompageBody">
+
+      <div class="container-fluid">
+
+        <div class="circle"></div>
+        <div class="circle2"></div>
+
+        <img src="./images/WafflesHomePage.png" class="slideImg waffle">
+
+        <ul class="thumb">
+
+          <li>
+            <img src="./images/WafflesHomePage.png" onclick="imgSlider('./images/WafflesHomePage.png');changeCircleColor('#dda430','#EB7828');changeDescription('Waffles','A waffle is a breakfast pastry originating from Belgium, typically made by cooking batter between two hot plates or irons. This creates a distinctive grid pattern on the surface of the waffle. The batter usually contains flour, eggs, milk, and butter, and can be flavored with sugar, vanilla, or cinnamon. Waffles can be served with a variety of sweet or savory toppings, such as butter, syrup, fruit, whipped cream, or bacon and eggs. They are enjoyed around the world and have become a popular breakfast food.')">
+          </li>
+
+          <li>
+            <img src="./images/blackCoffeeHomePage.png" onclick="imgSlider('./images/blackCoffeeHomePage.png');changeCircleColor('#773b10','#debb76');changeDescription('Capuccinno','A cappuccino is a popular Italian coffee drink made with espresso, steamed milk, and a layer of frothed milk on top. The espresso is usually added first, followed by a layer of steamed milk, and then topped with a layer of frothed milk. The frothed milk creates a layer of foam on top of the drink, which is often decorated with a sprinkle of cinnamon or cocoa powder. Cappuccinos are often served in small cups and are enjoyed around the world as a delicious and comforting coffee beverage.')">
+          </li>
+
+          <li>
+            <img src="./images/FriesHomePage.png" onclick="imgSlider('./images/FriesHomePage.png');changeCircleColor('#fca62c', '#ab7405');changeDescription('Snack','French fries, also known as chips, are a popular snack or side dish made from sliced and deep-fried potatoes. They are usually seasoned with salt and can be served with a variety of dipping sauces such as ketchup, mayonnaise, or aioli. French fries can be thin or thick cut, and are often crispy on the outside and soft on the inside. They are a staple in fast food restaurants and are enjoyed around the world as a tasty and satisfying snack or side dish.')">
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="col-xl-4 ">
+
+      <div class="row row-cols-1">
+
+        <div class="col content">
+
+          <div class="textbox">
+            <h2>
+              Enjoy your meal with<br>
+              <span id="title">
+                Waffles
+              </span>
+            </h2>
+            <a href = "menu.html">Order Now</a>
+          </div>
+
+        </div>
+
+        <div class="col indexCol">
+
+          <div><p id="paragraph">A waffle is typically made from a batter that is cooked between two plates with a pattern of indentations or raised ridges. It has a crispy exterior and a soft, fluffy interior, and served with toppings such as butter, syrup, fruit, or whipped cream. Waffles also made in variety of shapes and sizes, from small round ones to larger rectangular ones, and you can also flavored it with different ingredients such as chocolate chips, blueberries, or cinnamon. They are also most of the popular breakfast.</p></div>
+          
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script type="text/javascript">
+
+  function imgSlider(img){
+    document.querySelector('.waffle').src = img;
+  }
+
+  function changeCircleColor(color,color2){
+    const circle = document.querySelector('.circle');
+    const circle2 = document.querySelector('.circle2');
+    circle.style.background = color;
+    circle2.style.background = color2;
+  }
+
+  function changeDescription(title, paragraph){
+
+    document.getElementById("title").innerHTML = title;
+    document.getElementById("paragraph").innerHTML = paragraph;
+
+  }
+
+</script>
+
+
+
+
+      <small>
+        <footer>
+        <p>✉️Email: MyWaffle@gmail.com</p>
+        <p>☎️Phone-No: 016-1234567</p>
+        <p>📘Facebook: MyWaffle.com</p>
+        </footer>
+      </small>     
+</body>
+</html>
